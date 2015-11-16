@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F05A36AF1BF9DF6000E10426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36AE1BF9DF6000E10426 /* main.m */; };
-		F05A36B21BF9DF6000E10426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36B11BF9DF6000E10426 /* AppDelegate.m */; };
-		F05A36B51BF9DF6000E10426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36B41BF9DF6000E10426 /* ViewController.m */; };
-		F05A36B81BF9DF6000E10426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36B61BF9DF6000E10426 /* Main.storyboard */; };
-		F05A36BA1BF9DF6000E10426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05A36B91BF9DF6000E10426 /* Assets.xcassets */; };
-		F05A36BD1BF9DF6000E10426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36BB1BF9DF6000E10426 /* LaunchScreen.storyboard */; };
 		F05A36C81BF9DF6000E10426 /* TomatoTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36C71BF9DF6000E10426 /* TomatoTimerTests.m */; };
 		F05A36D31BF9DF6000E10426 /* TomatoTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36D21BF9DF6000E10426 /* TomatoTimerUITests.m */; };
+		F05A36EC1BF9E1CE00E10426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36E21BF9E1CE00E10426 /* AppDelegate.m */; };
+		F05A36ED1BF9E1CE00E10426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05A36E41BF9E1CE00E10426 /* Assets.xcassets */; };
+		F05A36EE1BF9E1CE00E10426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36E51BF9E1CE00E10426 /* LaunchScreen.storyboard */; };
+		F05A36EF1BF9E1CE00E10426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36E71BF9E1CE00E10426 /* Main.storyboard */; };
+		F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,6 @@
 /* Begin PBXFileReference section */
 		F05A36AA1BF9DF6000E10426 /* TomatoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05A36AE1BF9DF6000E10426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F05A36B01BF9DF6000E10426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F05A36B11BF9DF6000E10426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F05A36B31BF9DF6000E10426 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F05A36B41BF9DF6000E10426 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F05A36B71BF9DF6000E10426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F05A36B91BF9DF6000E10426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F05A36BC1BF9DF6000E10426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F05A36BE1BF9DF6000E10426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F05A36C31BF9DF6000E10426 /* TomatoTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05A36C71BF9DF6000E10426 /* TomatoTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomatoTimerTests.m; sourceTree = "<group>"; };
@@ -51,6 +44,13 @@
 		F05A36CE1BF9DF6000E10426 /* TomatoTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05A36D21BF9DF6000E10426 /* TomatoTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomatoTimerUITests.m; sourceTree = "<group>"; };
 		F05A36D41BF9DF6000E10426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05A36E11BF9E1CE00E10426 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F05A36E21BF9E1CE00E10426 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F05A36E41BF9E1CE00E10426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F05A36E61BF9E1CE00E10426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F05A36E81BF9E1CE00E10426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F05A36EA1BF9E1CE00E10426 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +101,9 @@
 		F05A36AC1BF9DF6000E10426 /* TomatoTimer */ = {
 			isa = PBXGroup;
 			children = (
-				F05A36B01BF9DF6000E10426 /* AppDelegate.h */,
-				F05A36B11BF9DF6000E10426 /* AppDelegate.m */,
-				F05A36B31BF9DF6000E10426 /* ViewController.h */,
-				F05A36B41BF9DF6000E10426 /* ViewController.m */,
-				F05A36B61BF9DF6000E10426 /* Main.storyboard */,
-				F05A36B91BF9DF6000E10426 /* Assets.xcassets */,
-				F05A36BB1BF9DF6000E10426 /* LaunchScreen.storyboard */,
-				F05A36BE1BF9DF6000E10426 /* Info.plist */,
-				F05A36AD1BF9DF6000E10426 /* Supporting Files */,
+				F05A36E01BF9E1CE00E10426 /* Classes */,
+				F05A36E91BF9E1CE00E10426 /* Vender */,
+				F05A36E31BF9E1CE00E10426 /* Resources */,
 			);
 			path = TomatoTimer;
 			sourceTree = "<group>";
@@ -118,8 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				F05A36AE1BF9DF6000E10426 /* main.m */,
+				F05A36BE1BF9DF6000E10426 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F05A36C61BF9DF6000E10426 /* TomatoTimerTests */ = {
@@ -138,6 +134,35 @@
 				F05A36D41BF9DF6000E10426 /* Info.plist */,
 			);
 			path = TomatoTimerUITests;
+			sourceTree = "<group>";
+		};
+		F05A36E01BF9E1CE00E10426 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F05A36E11BF9E1CE00E10426 /* AppDelegate.h */,
+				F05A36E21BF9E1CE00E10426 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F05A36E31BF9E1CE00E10426 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F05A36AD1BF9DF6000E10426 /* Supporting Files */,
+				F05A36E41BF9E1CE00E10426 /* Assets.xcassets */,
+				F05A36E51BF9E1CE00E10426 /* LaunchScreen.storyboard */,
+				F05A36E71BF9E1CE00E10426 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F05A36E91BF9E1CE00E10426 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				F05A36EA1BF9E1CE00E10426 /* MZTimerLabel.h */,
+				F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */,
+			);
+			path = Vender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +227,7 @@
 		F05A36A21BF9DF6000E10426 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZX;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "微加科技";
 				TargetAttributes = {
@@ -243,9 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F05A36BD1BF9DF6000E10426 /* LaunchScreen.storyboard in Resources */,
-				F05A36BA1BF9DF6000E10426 /* Assets.xcassets in Resources */,
-				F05A36B81BF9DF6000E10426 /* Main.storyboard in Resources */,
+				F05A36ED1BF9E1CE00E10426 /* Assets.xcassets in Resources */,
+				F05A36EF1BF9E1CE00E10426 /* Main.storyboard in Resources */,
+				F05A36EE1BF9E1CE00E10426 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F05A36B51BF9DF6000E10426 /* ViewController.m in Sources */,
-				F05A36B21BF9DF6000E10426 /* AppDelegate.m in Sources */,
+				F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */,
+				F05A36EC1BF9E1CE00E10426 /* AppDelegate.m in Sources */,
 				F05A36AF1BF9DF6000E10426 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,20 +334,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F05A36B61BF9DF6000E10426 /* Main.storyboard */ = {
+		F05A36E51BF9E1CE00E10426 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F05A36B71BF9DF6000E10426 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F05A36BB1BF9DF6000E10426 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F05A36BC1BF9DF6000E10426 /* Base */,
+				F05A36E61BF9E1CE00E10426 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F05A36E71BF9E1CE00E10426 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05A36E81BF9E1CE00E10426 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TomatoTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.TomatoTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TomatoTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.TomatoTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
