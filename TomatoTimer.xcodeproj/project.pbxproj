@@ -15,6 +15,7 @@
 		F05A36EE1BF9E1CE00E10426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36E51BF9E1CE00E10426 /* LaunchScreen.storyboard */; };
 		F05A36EF1BF9E1CE00E10426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36E71BF9E1CE00E10426 /* Main.storyboard */; };
 		F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */; };
+		F0BA53D21BFAF96A0033FA3A /* ZXTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F05A36E81BF9E1CE00E10426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F05A36EA1BF9E1CE00E10426 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
 		F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		F0BA53D01BFAF96A0033FA3A /* ZXTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTimerViewController.h; sourceTree = "<group>"; };
+		F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 			children = (
 				F05A36E11BF9E1CE00E10426 /* AppDelegate.h */,
 				F05A36E21BF9E1CE00E10426 /* AppDelegate.m */,
+				F0BA53D01BFAF96A0033FA3A /* ZXTimerViewController.h */,
+				F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BA53D21BFAF96A0033FA3A /* ZXTimerViewController.m in Sources */,
 				F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */,
 				F05A36EC1BF9E1CE00E10426 /* AppDelegate.m in Sources */,
 				F05A36AF1BF9DF6000E10426 /* main.m in Sources */,
@@ -524,6 +530,7 @@
 				F05A36D91BF9DF6000E10426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F05A36DA1BF9DF6000E10426 /* Build configuration list for PBXNativeTarget "TomatoTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +539,7 @@
 				F05A36DC1BF9DF6000E10426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F05A36DD1BF9DF6000E10426 /* Build configuration list for PBXNativeTarget "TomatoTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +548,7 @@
 				F05A36DF1BF9DF6000E10426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
