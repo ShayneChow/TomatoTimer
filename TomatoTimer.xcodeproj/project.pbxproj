@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02517B11C007EE4005ADEE2 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F02517B01C007EE4005ADEE2 /* UIView+XMGExtension.m */; };
 		F05A36AF1BF9DF6000E10426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36AE1BF9DF6000E10426 /* main.m */; };
 		F05A36C81BF9DF6000E10426 /* TomatoTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36C71BF9DF6000E10426 /* TomatoTimerTests.m */; };
 		F05A36D31BF9DF6000E10426 /* TomatoTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36D21BF9DF6000E10426 /* TomatoTimerUITests.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F02517AF1C007EE4005ADEE2 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		F02517B01C007EE4005ADEE2 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 		F05A36AA1BF9DF6000E10426 /* TomatoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05A36AE1BF9DF6000E10426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F05A36BE1BF9DF6000E10426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				F05A36E21BF9E1CE00E10426 /* AppDelegate.m */,
 				F0BA53D01BFAF96A0033FA3A /* ZXTimerViewController.h */,
 				F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */,
+				F02517AF1C007EE4005ADEE2 /* UIView+XMGExtension.h */,
+				F02517B01C007EE4005ADEE2 /* UIView+XMGExtension.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BA53D21BFAF96A0033FA3A /* ZXTimerViewController.m in Sources */,
+				F02517B11C007EE4005ADEE2 /* UIView+XMGExtension.m in Sources */,
 				F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */,
 				F05A36EC1BF9E1CE00E10426 /* AppDelegate.m in Sources */,
 				F05A36AF1BF9DF6000E10426 /* main.m in Sources */,

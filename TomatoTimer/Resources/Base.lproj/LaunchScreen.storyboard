@@ -40,7 +40,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="番茄时钟 • 极简版" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmF-6I-mG9">
-                                        <rect key="frame" x="80" y="200" width="160" height="22"/>
+                                        <rect key="frame" x="80" y="210" width="160" height="22"/>
                                         <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="160" id="4yF-rT-hP9"/>
@@ -54,7 +54,7 @@
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="qmF-6I-mG9" firstAttribute="top" secondItem="SY2-WQ-Oqn" secondAttribute="bottom" constant="10" id="DMN-CZ-XGJ"/>
+                                    <constraint firstItem="qmF-6I-mG9" firstAttribute="top" secondItem="SY2-WQ-Oqn" secondAttribute="bottom" constant="20" id="DMN-CZ-XGJ"/>
                                     <constraint firstItem="SY2-WQ-Oqn" firstAttribute="centerX" secondItem="aaG-O7-fgA" secondAttribute="centerX" id="Jtp-JV-Zgi"/>
                                     <constraint firstItem="qmF-6I-mG9" firstAttribute="centerX" secondItem="aaG-O7-fgA" secondAttribute="centerX" id="i8e-Va-AJO"/>
                                     <constraint firstAttribute="width" constant="320" id="sOL-50-t4N"/>
