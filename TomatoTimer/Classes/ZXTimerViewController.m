@@ -21,7 +21,8 @@
 @synthesize easyTimer = _easyTimer;
 @synthesize smallTimer = _smallTimer;
 
-//static  testTime
+//static NSString* const kBWBarTitle = @"动态";
+static int const standardTime = 1500;   // 标准时间25分钟
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -29,13 +30,13 @@
     [self setupStartButton];
     
     easyTimer = [[MZTimerLabel alloc] initWithLabel:_easyTimer andTimerType:MZTimerLabelTypeTimer];
-    [easyTimer setCountDownTime:10];
+    [easyTimer setCountDownTime:standardTime];
     easyTimer.resetTimerAfterFinish = NO;
     easyTimer.delegate = self;
     easyTimer.timeFormat = @"mm:ss";
     
     smallTimer = [[MZTimerLabel alloc] initWithLabel:_smallTimer andTimerType:MZTimerLabelTypeTimer];
-    [smallTimer setCountDownTime:10];
+    [smallTimer setCountDownTime:standardTime];
     smallTimer.resetTimerAfterFinish = NO;
     smallTimer.delegate = self;
     smallTimer.timeFormat = @"SS";
@@ -90,8 +91,9 @@
     }
 }
 
+// 时间小于5分钟时计时器变红
 - (void)timerLabel:(MZTimerLabel *)timerLabel countingTo:(NSTimeInterval)time timertype:(MZTimerLabelType)timerType{
-    if(time < 5) {
+    if(time < 301) {
         timerLabel.timeLabel.textColor = [UIColor colorWithRed:1.000 green:0.400 blue:0.400 alpha:1.000];
     }
 }

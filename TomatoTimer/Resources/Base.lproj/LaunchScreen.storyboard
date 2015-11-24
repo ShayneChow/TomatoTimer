@@ -25,51 +25,25 @@
                                     <constraint firstAttribute="height" constant="21" id="vyo-mE-3bB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaG-O7-fgA" userLabel="Icon-Info VIew">
-                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tomato" translatesAutoresizingMaskIntoConstraints="NO" id="SY2-WQ-Oqn">
-                                        <rect key="frame" x="70" y="10" width="180" height="180"/>
-                                        <animations/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="180" id="W8F-F9-odz"/>
-                                            <constraint firstAttribute="height" constant="180" id="iIp-M4-acK"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="番茄时钟 • 极简版" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmF-6I-mG9">
-                                        <rect key="frame" x="80" y="210" width="160" height="22"/>
-                                        <animations/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="160" id="4yF-rT-hP9"/>
-                                            <constraint firstAttribute="height" constant="22" id="bhX-0H-sxP"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
-                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tomato-icon" translatesAutoresizingMaskIntoConstraints="NO" id="EhP-he-7cX">
+                                <rect key="frame" x="120" y="244" width="80" height="80"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="qmF-6I-mG9" firstAttribute="top" secondItem="SY2-WQ-Oqn" secondAttribute="bottom" constant="20" id="DMN-CZ-XGJ"/>
-                                    <constraint firstItem="SY2-WQ-Oqn" firstAttribute="centerX" secondItem="aaG-O7-fgA" secondAttribute="centerX" id="Jtp-JV-Zgi"/>
-                                    <constraint firstItem="qmF-6I-mG9" firstAttribute="centerX" secondItem="aaG-O7-fgA" secondAttribute="centerX" id="i8e-Va-AJO"/>
-                                    <constraint firstAttribute="width" constant="320" id="sOL-50-t4N"/>
-                                    <constraint firstAttribute="height" constant="320" id="vCF-Ag-BXI"/>
-                                    <constraint firstItem="SY2-WQ-Oqn" firstAttribute="top" secondItem="aaG-O7-fgA" secondAttribute="top" constant="10" id="vWZ-UH-pYE"/>
+                                    <constraint firstAttribute="width" constant="80" id="8cM-e5-3PM"/>
+                                    <constraint firstAttribute="height" constant="80" id="RlQ-xG-SqF"/>
                                 </constraints>
-                            </view>
+                            </imageView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.74509803921568629" green="0.050980392156862744" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MDl-1f-cVm" secondAttribute="bottom" constant="10" id="15b-U2-f7h"/>
-                            <constraint firstItem="aaG-O7-fgA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bai-Bv-RTD"/>
+                            <constraint firstItem="EhP-he-7cX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Zht-aJ-PL1"/>
+                            <constraint firstItem="EhP-he-7cX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="c2R-dQ-UfG"/>
                             <constraint firstItem="MDl-1f-cVm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cdZ-ZP-AO7"/>
-                            <constraint firstItem="aaG-O7-fgA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wZy-tB-F34"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -81,6 +55,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tomato" width="340" height="340"/>
+        <image name="tomato-icon" width="166" height="166"/>
     </resources>
 </document>

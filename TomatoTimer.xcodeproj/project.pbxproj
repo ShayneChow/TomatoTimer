@@ -16,6 +16,7 @@
 		F05A36EE1BF9E1CE00E10426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36E51BF9E1CE00E10426 /* LaunchScreen.storyboard */; };
 		F05A36EF1BF9E1CE00E10426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A36E71BF9E1CE00E10426 /* Main.storyboard */; };
 		F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */; };
+		F08CD4C11C0440ED0039965F /* ZXLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08CD4C01C0440ED0039965F /* ZXLoadViewController.m */; };
 		F0BA53D21BFAF96A0033FA3A /* ZXTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		F05A36E81BF9E1CE00E10426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F05A36EA1BF9E1CE00E10426 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
 		F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		F08CD4BF1C0440ED0039965F /* ZXLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLoadViewController.h; sourceTree = "<group>"; };
+		F08CD4C01C0440ED0039965F /* ZXLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLoadViewController.m; sourceTree = "<group>"; };
 		F0BA53D01BFAF96A0033FA3A /* ZXTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTimerViewController.h; sourceTree = "<group>"; };
 		F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +150,8 @@
 			children = (
 				F05A36E11BF9E1CE00E10426 /* AppDelegate.h */,
 				F05A36E21BF9E1CE00E10426 /* AppDelegate.m */,
+				F08CD4BF1C0440ED0039965F /* ZXLoadViewController.h */,
+				F08CD4C01C0440ED0039965F /* ZXLoadViewController.m */,
 				F0BA53D01BFAF96A0033FA3A /* ZXTimerViewController.h */,
 				F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */,
 				F02517AF1C007EE4005ADEE2 /* UIView+XMGExtension.h */,
@@ -306,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08CD4C11C0440ED0039965F /* ZXLoadViewController.m in Sources */,
 				F0BA53D21BFAF96A0033FA3A /* ZXTimerViewController.m in Sources */,
 				F02517B11C007EE4005ADEE2 /* UIView+XMGExtension.m in Sources */,
 				F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */,

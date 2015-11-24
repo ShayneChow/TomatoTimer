@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZXLoadViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,73 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor colorWithRed:0.745 green:0.051 blue:0.118 alpha:1.000];
+    
+    ZXLoadViewController *loadVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateInitialViewController];
+    self.window.rootViewController = loadVC;
+    
+    
+    //logo mask
+    CALayer *maskLayer = [CALayer layer];
+    maskLayer.contents = (id)[UIImage imageNamed:@"loadicon"].CGImage;
+    maskLayer.position = loadVC.view.center;
+    maskLayer.bounds = CGRectMake(0, 0, 80, 80);
+    loadVC.view.layer.mask = maskLayer;
+    
+    //logo mask background view
+    UIView *maskBackgroundView = [[UIView alloc]initWithFrame:loadVC.view.bounds];
+    maskBackgroundView.backgroundColor = [UIColor whiteColor];
+    [loadVC.view addSubview:maskBackgroundView];
+    [loadVC.view bringSubviewToFront:maskBackgroundView];
+    
+    
+    //logo mask animation
+    CAKeyframeAnimation *logoMaskAnimaiton = [CAKeyframeAnimation animationWithKeyPath:@"bounds"];
+    logoMaskAnimaiton.duration = 1.0f;
+    logoMaskAnimaiton.beginTime = CACurrentMediaTime() + 1.0f;//延迟一秒
+    
+    CGRect initalBounds = maskLayer.bounds;
+    CGRect secondBounds = CGRectMake(0, 0, 50, 50);
+    CGRect finalBounds  = CGRectMake(0, 0, 2000, 2000);
+    logoMaskAnimaiton.values = @[[NSValue valueWithCGRect:initalBounds],[NSValue valueWithCGRect:secondBounds],[NSValue valueWithCGRect:finalBounds]];
+    logoMaskAnimaiton.keyTimes = @[@(0),@(0.5),@(1)];
+    logoMaskAnimaiton.timingFunctions = @[[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
+    logoMaskAnimaiton.removedOnCompletion = NO;
+    logoMaskAnimaiton.fillMode = kCAFillModeForwards;
+    [loadVC.view.layer.mask addAnimation:logoMaskAnimaiton forKey:@"logoMaskAnimaiton"];
+    
+    
+    //maskBackgroundView fade animation
+    [UIView animateWithDuration:0.1 delay:1.35 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        
+        maskBackgroundView.alpha = 0.0;
+        
+    } completion:^(BOOL finished) {
+        
+        [maskBackgroundView removeFromSuperview];
+        
+    }];
+    
+    
+    //loadVC.view bounce animation
+    [UIView animateWithDuration:0.25 delay:1.3 options:UIViewAnimationOptionTransitionNone animations:^{
+        
+        loadVC.view.transform = CGAffineTransformMakeScale(1.05, 1.05);
+        
+    } completion:^(BOOL finished) {
+        
+        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            
+            loadVC.view.transform = CGAffineTransformIdentity;
+            
+        } completion:^(BOOL finished) {
+            
+            loadVC.view.layer.mask = nil;
+            
+        }];
+    }];
+    
     return YES;
 }
 
