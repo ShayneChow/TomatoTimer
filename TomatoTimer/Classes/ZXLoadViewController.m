@@ -27,6 +27,7 @@
     [_loadTimer setCountDownTime:8];
     _loadTimer.resetTimerAfterFinish = NO;
     _loadTimer.delegate = self;
+    _loadTimer.font = [UIFont fontWithName:@"DS-Digital" size:15];
     _loadTimer.timeFormat = @"s";
     [_loadTimer start];
 }

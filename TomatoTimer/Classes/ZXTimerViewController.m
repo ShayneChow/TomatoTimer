@@ -33,12 +33,14 @@ static int const standardTime = 1500;   // 标准时间25分钟
     [easyTimer setCountDownTime:standardTime];
     easyTimer.resetTimerAfterFinish = NO;
     easyTimer.delegate = self;
+    easyTimer.font = [UIFont fontWithName:@"DS-Digital" size:60];
     easyTimer.timeFormat = @"mm:ss";
     
     smallTimer = [[MZTimerLabel alloc] initWithLabel:_smallTimer andTimerType:MZTimerLabelTypeTimer];
     [smallTimer setCountDownTime:standardTime];
     smallTimer.resetTimerAfterFinish = NO;
     smallTimer.delegate = self;
+    smallTimer.font = [UIFont fontWithName:@"DS-Digital" size:40];
     smallTimer.timeFormat = @"SS";
 }
 

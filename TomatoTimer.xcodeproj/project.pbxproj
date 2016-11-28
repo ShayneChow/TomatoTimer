@@ -18,6 +18,7 @@
 		F05A36F01BF9E1CE00E10426 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A36EB1BF9E1CE00E10426 /* MZTimerLabel.m */; };
 		F08CD4C11C0440ED0039965F /* ZXLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08CD4C01C0440ED0039965F /* ZXLoadViewController.m */; };
 		F0BA53D21BFAF96A0033FA3A /* ZXTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */; };
+		F0E9F7711C1EC0060022DEB6 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F0E9F7701C1EC0060022DEB6 /* DS-DIGI.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F08CD4C01C0440ED0039965F /* ZXLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLoadViewController.m; sourceTree = "<group>"; };
 		F0BA53D01BFAF96A0033FA3A /* ZXTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTimerViewController.h; sourceTree = "<group>"; };
 		F0BA53D11BFAF96A0033FA3A /* ZXTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTimerViewController.m; sourceTree = "<group>"; };
+		F0E9F7701C1EC0060022DEB6 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			children = (
 				F05A36AD1BF9DF6000E10426 /* Supporting Files */,
 				F05A36E41BF9E1CE00E10426 /* Assets.xcassets */,
+				F0E9F7701C1EC0060022DEB6 /* DS-DIGI.TTF */,
 				F05A36E51BF9E1CE00E10426 /* LaunchScreen.storyboard */,
 				F05A36E71BF9E1CE00E10426 /* Main.storyboard */,
 			);
@@ -248,6 +251,7 @@
 				TargetAttributes = {
 					F05A36A91BF9DF6000E10426 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3UW5DK2H35;
 					};
 					F05A36C21BF9DF6000E10426 = {
 						CreatedOnToolsVersion = 7.1;
@@ -284,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E9F7711C1EC0060022DEB6 /* DS-DIGI.TTF in Resources */,
 				F05A36ED1BF9E1CE00E10426 /* Assets.xcassets in Resources */,
 				F05A36EF1BF9E1CE00E10426 /* Main.storyboard in Resources */,
 				F05A36EE1BF9E1CE00E10426 /* LaunchScreen.storyboard in Resources */,
@@ -455,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UW5DK2H35;
 				INFOPLIST_FILE = TomatoTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -467,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UW5DK2H35;
 				INFOPLIST_FILE = TomatoTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
